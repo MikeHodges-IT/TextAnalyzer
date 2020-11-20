@@ -193,8 +193,12 @@ btnChart.setVisible(false);
             XYChart.Series dataSeries1 = new XYChart.Series();
             dataSeries1.setName("2014");
 
-            TextAnalyzer.htmlStringToFreqMap(selection)
-    		.entrySet()
+//            TextAnalyzer.htmlStringToFreqMap(selection)
+            Javadb j = new Javadb();
+//            System.out.println(j.sqlCountToHashMap(selection));
+            System.out.println("hello world");
+            j.sqlCountToHashMap(selection)
+            .entrySet()
     		.stream().forEach(e -> { 
     				dataSeries1.getData().add(new XYChart.Data(e.getKey(),e.getValue()));    				       
     				});
@@ -253,7 +257,7 @@ btnChart.setVisible(false);
 
  /**
  * 
- * Hideall basically resets everything by setting all element to not visible.
+ * HideAll resets everything by setting all element to not visible.
  * 
  */ 
  void HideAll() {

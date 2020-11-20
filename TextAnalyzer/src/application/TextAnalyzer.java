@@ -19,7 +19,7 @@ import static java.util.stream.Collectors.*;
 * @since   2020-11-15
 */
 public class TextAnalyzer {  
-	
+
 	/**
 	 * Covert a string to a LinkedHashMap String, Long of value pair containing words and how many times each word occurred in the string. 
 	 * 
@@ -28,7 +28,6 @@ public class TextAnalyzer {
 	 * @return wordFreqHashMap hashmap of value pair containing words and how many times each word occurred in the string
 	 */
 	public static LinkedHashMap<String, Long> htmlStringToFreqMap(String str){
-		
 		Map<String, Long> wordFreqMap =  
 				
 				Stream.of(
@@ -54,6 +53,7 @@ public class TextAnalyzer {
 		return  wordFreqHashMap;
 		
 	}
+
 	}
 	
 	

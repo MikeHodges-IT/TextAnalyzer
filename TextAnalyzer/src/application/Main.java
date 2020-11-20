@@ -23,6 +23,12 @@ public class Main extends Application {
 	 * This is the start method that calls the Launch method to start the stand alone application.
 	 */
 	public void start(Stage primaryStage) {
+		
+
+
+
+	
+		
 		try {
 			
 			Pane mainPane =  (Pane) FXMLLoader.load(Main.class.getResource("Sample.fxml"));

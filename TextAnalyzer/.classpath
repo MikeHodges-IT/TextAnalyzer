@@ -10,5 +10,6 @@
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javaFx"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="J:/dev/java/mySql/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
