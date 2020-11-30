@@ -42,6 +42,8 @@ public class Javadb {
 		this.password = password;
 	}
 	/**
+	 * Execute an Sql Statement
+	 * 
 	 * @param sql
 	 */
 	public void sql(String sql) {
@@ -60,8 +62,6 @@ public class Javadb {
 				if(status != 0) {
 //					System.out.println("SQL Success");
 				
-				
-				
 				}
 				
 				
@@ -74,7 +74,10 @@ public class Javadb {
 		
 	}
 	/**
-	 * Covert a string to a LinkedHashMap String, Long of value pair containing words and how many times each word occurred in the string. 
+	 * Covert a string remove html from string and insert the data into a database.
+	 * Then uses Sql Sql stored procedures to count the word occurrences and insert 
+	 * the record set into a  LinkedHashMap. LinkedHashMap String, Long of value pair
+	 * containing words and how many times each word occurred in the string. 
 	 * 
 	 * 
 	 * @param  str String of words to count how many time each word occurred.
